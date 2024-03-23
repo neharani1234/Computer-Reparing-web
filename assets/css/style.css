@@ -1,3 +1,4 @@
+
 /*-----------------------------------------------------------------------------------
 
     Template Name: AC Repair
@@ -139,7 +140,7 @@ a:focus {
 
 a:hover {
   text-decoration: none;
-  color: #00408e;
+      background: #4c8ad5
 }
 
 button, input[type="submit"] {
@@ -254,7 +255,7 @@ ul {
     - color
 -----------------------------------------*/
 .c-blue {
-  color: #00408e;
+  color:#4c8ad5;
 }
 
 /*-- 
@@ -286,7 +287,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 #scrollUp {
   width: 40px;
   height: 40px;
-  background-color: #00408e;
+  background-color: #4c8ad5;
   color: #ffffff;
   right: 20px;
   bottom: 60px;
@@ -924,10 +925,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     - Button Style
 ------------------------------------------*/
 .default-btn {
-  border: 1px solid #00408e;
+  border: 1px solid #4c8ad5 ;
   padding: 12px 30px;
   color: #ffffff;
-  background: #00408e;
+  background: #4c8ad5;
   font-size: 16px;
   font-weight: 600;
 }
@@ -947,7 +948,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 .primary-btn:hover {
   border: 1px solid #fb7832;
-  background: #00408e;
+  background: #4c8ad5;
   color: #ffffff;
 }
 
@@ -956,7 +957,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 .btn {
-  background:#00408e;
+  background:#4c8ad5;
   color: #ffffff;
   border-radius: 0;
   font-family: "Open Sans", sans-serif;
@@ -1007,7 +1008,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .section-title h4 {
   font-size: 16px;
   font-weight: 500;
-  color: #00408e;
+  color: #4c8ad5;
   margin-bottom: 10px;
   margin-top: -5px;
   text-transform: uppercase;
@@ -1027,7 +1028,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   .section-title h2 {
     font-size: 34px;
   }
-}
+}                                       
 @media only screen and (max-width: 767px) {
   .section-title {
     margin-bottom: 10px;
@@ -1061,7 +1062,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   background: #354b65;
 }
 .section-title-two h2 span {
-  color: #00408e;
+  color:#4c8ad5;
 }
 @media only screen and (max-width: 767px) {
   .section-title-two {
@@ -1102,7 +1103,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   display: inline-block;
 }
 .breadcrumb-list .breadcrumb-item.active {
-  color: #00408e;
+  color: #4c8ad5
 }
 .breadcrumb-list .breadcrumb-item a:hover {
   color: #fb7832;
@@ -1145,7 +1146,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   display: inline-block;
 }
 .pagination-box li.active a {
-  color: #00408e;
+  color: #4c8ad5
 }
 .pagination-box li a {
   color: #333333;
@@ -1503,10 +1504,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   margin-right: 0;
 }
 .main-menu ul li.active a {
-  color: #ffffff;
+  color: #000000;
 }
 .main-menu ul li a {
-  color:#ffffff ;
+  color: #000000;
   font-size: 16px;
   font-weight: 600;
   padding: 40px 0;
@@ -1527,7 +1528,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   -ms-filter: 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  border-bottom: 2px solid #00408e;
+  border-bottom: 2px solid #4c8ad5
 }
 .main-menu ul li .sub-menu li {
   display: block;
@@ -1587,7 +1588,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   text-transform: capitalize;
 }
 .header-bottom-area{
-  background-color:#1a2362;
+  background-color:#1a23;
 }
 @media only screen and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
   .header-menu-two .make-apoinmant-button {
@@ -1611,7 +1612,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   left: 0;
   width: 100%;
   z-index: 999;
-  background: #1a2362;
+  background: rgb(201 233 205);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
@@ -1707,7 +1708,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-weight: 600;
   letter-spacing: 1px;
   color: #ffffff;
-  background-color: #00408e;
+  background-color: #4c8ad5;
   padding: 8px 20px;
 }
 .service-content > a:hover {
@@ -1732,7 +1733,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   transition: 0.3s ease-in-out;
 }
 .service-slider-active .slick-arrow:hover {
-  background: #00408e;
+  background: #4c8ad5;
   color: #ffffff;
 }
 .service-slider-active .slick-arrow.slick-next {
@@ -1896,7 +1897,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   text-align: center;
 }
 .service-details-menu li a.active {
-  background: #00408e;
+  background: #4c8ad5;
   color: #ffffff;
 }
 .service-details-menu li:last-child {
@@ -2008,7 +2009,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   width: 70px;
   left: 0;
   top: -10px;
-  background: #00408e;
+  background: #4c8ad5;
   content: "";
   position: absolute;
 }
@@ -2017,7 +2018,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   width: 10px;
   left: -10px;
   top: -10px;
-  background: #00408e;
+  background: #4c8ad5;
   content: "";
   position: absolute;
 }
@@ -2027,7 +2028,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   width: 70px;
   right: -10px;
   bottom: -10px;
-  background: #00408e;
+  background: #4c8ad5;
   content: "";
   position: absolute;
 }
@@ -2035,7 +2036,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   height: 70px;
   right: -10px;
   bottom: -10px;
-  background: #00408e;
+  background: #4c8ad5;
   content: "";
   position: absolute;
   width: 10px;
@@ -2078,7 +2079,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-weight: 600;
 }
 .about-title h3 span {
-  color: #00408e;
+  color: #4c8ad5
 }
 @media only screen and (max-width: 767px) {
   .about-title h3 {
@@ -2129,14 +2130,14 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   height: 30px;
   text-align: center;
   line-height: 30px;
-  border: 1px solid #00408e;
-  color: #00408e;
+  border: 1px solid #4c8ad5;
+  color: #4c8ad5;
   border-radius: 50%;
   display: block;
 }
 .about-info .social-link ul li a:hover {
   color: #fff;
-  background: #00408e;
+  background: #4c8ad5;
 }
 
 /*--
@@ -2229,7 +2230,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-weight: 700;
 }
 .counter p {
-  color: #00408e;
+  color: #4c8ad5;
   margin-top: 25px;
   text-transform: capitalize;
   letter-spacing: 1px;
@@ -2362,7 +2363,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 .single-faq .title-content i {
   color: #ffffff;
-  background: #00408e;
+  background: #4c8ad5;
   font-size: 22px;
   height: 30px;
   width: 30px;
@@ -2853,7 +2854,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .opinion-content-inner .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #00408e;
+  border-color:#4c8ad5
 }
 .opinion-content-inner input, .opinion-content-inner textarea {
   padding: 20px 30px;
@@ -3041,7 +3042,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 .team-member-image {
-  position: relative;
+  position: relative;                                           
 }
 .team-member-image img {
   width: 100%;
