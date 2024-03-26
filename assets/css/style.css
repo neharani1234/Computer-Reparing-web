@@ -1589,6 +1589,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 .header-bottom-area{
   background-color:#1a23;
+  box-shadow: 0px 0px 10px 3px;
 }
 @media only screen and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
   .header-menu-two .make-apoinmant-button {
@@ -2826,7 +2827,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     13. Your Opinion Css
 -----------------------------*/
 .opinion-bg {
-  background: url(/image/ac3.jpg);
+  background: url(/image/serviceImg1.jpg);
   background-size: cover;
 }
 
