@@ -177,3 +177,26 @@ h3.A3 {
 .contact-us-area {
     margin-top: -313px;
 }
+.breadcrumb-area {
+    background: url(/image/_Grey\ Modern\ Technology\ LinkedIn\ Banner.png);
+    text-align: center;
+    height: 350px;
+  }
+  .service-content > a{
+    border-radius: 25px;
+  }
+  .serab h2 {
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    /* margin-top: -126px !important; */
+}
+.serab h3 {
+    font-size: 19px !important;
+    font-weight: 600 !important;
+    margin-top: 6px !important;
+    color: black !important;
+}
+
+.repair-image img{
+    height: 150% !important;
+}

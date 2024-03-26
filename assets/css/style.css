@@ -1075,7 +1075,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 ------------------------------------------*/
 /*---- Breadcrumb One ----*/
 .breadcrumb-area {
-  background: #f5f5f5;
+  /* background: #f5f5f5; */
   text-align: center;
 }
 .breadcrumb-area h2 {
