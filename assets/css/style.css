@@ -140,7 +140,7 @@ a:focus {
 
 a:hover {
   text-decoration: none;
-      background: #4c8ad5
+    
 }
 
 button, input[type="submit"] {
@@ -1177,7 +1177,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   position: absolute;
   top: -53px;
   color: #000;
-  right: auto !important;
+  /* right: auto !important; */
   left: 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1436,7 +1436,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   }
 }
 .single-information-top .info-icon i {
-  color: #00408e;
+  color: #4c8ad5;
   font-size: 36px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1568,8 +1568,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     padding: 15px 0;
   }
   .make-apoinmant-button > a {
-    padding: 8px 15px;
+    padding: 3px 8px;
   }
+  
 }
 
 .header-menu-two .main-menu ul li a {
@@ -1588,7 +1589,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   text-transform: capitalize;
 }
 .header-bottom-area{
-  background-color:#1a23;
+  background-color:#dedede;
   box-shadow: 0px 0px 10px 3px;
 }
 @media only screen and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3264,7 +3265,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     18. Footer Css
 ---------------------------*/
 .footer-area {
-  background: #1d1e26;
+  background:#dedede;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .footer-area.mt--110 {
@@ -3331,15 +3332,15 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  border: 1px solid #fff;
+  border: 1px solid #4c8ad5;
   border-radius: 50%;
-  color: #ffffff;
+  color: #4c8ad5;
   text-align: center;
 }
 .footer-info .social li a:hover {
-  background: #ffffff;
-  color: #1d1e26;
-  border: 1px solid #ffffff;
+  background: #4c8ad5;
+  color: white;
+  border: 1px solid #4c8ad5;
 }
 @media only screen and (max-width: 767px) {
   .footer-info.mt--60 {
@@ -3356,19 +3357,19 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 .footer-info .footer-title h3 {
   font-size: 16px;
-  color: #ffffff;
+  color: black;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
   margin-top: -5px;
 }
 .footer-info p {
-  color: #ffffff;
+  color:black;
   font-size: 14px;
   margin-top: 25px;
 }
 .footer-info .footer-list li {
-  color: #ffffff;
+  color: black;
   margin-bottom: 15px;
   font-size: 14px;
 }
@@ -3381,7 +3382,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   margin-bottom: 0;
 }
 .footer-info .footer-list li a:hover {
-  color: #fb7832;
+  color: #4c8ad5;
 }
 .footer-info .footer-list-instagram {
   margin: 0 -5px -5px -5px;
@@ -3403,7 +3404,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   border-top: 1px solid #333333;
 }
 .footer-bottom .footer-bottom-inner p {
-  color: #fff;
+  color: black;
   font-size: 14px;
 }
 
@@ -3437,7 +3438,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   }
 }
 .footer-content-inner h4 {
-  color: #fb7832;
+  color: #4c8ad5;
   margin-bottom: 30px;
   font-weight: 600;
   letter-spacing: 1px;
