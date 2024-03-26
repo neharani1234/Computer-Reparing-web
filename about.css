@@ -1,0 +1,86 @@
+.breadcrumb-area.section-ptb.A {
+    background: url(/image/1.png);
+    height: 326px;
+}
+
+.breadcrumb-area.section-ptb.B {
+    background: url(image/Black\ Modern\ Vlogger\ YouTube\ Banner.png);
+    height: 340px;
+}
+
+.breadcrumb-area h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin-top: -5px;
+}
+
+.breadcrumb-item A {
+    color: white
+}
+
+
+
+/* Computer services */
+.head h3 {
+    color: rgb(9, 9, 10);
+    padding-left: 332px;
+    margin: 19px;
+    font-size: 28px;
+}
+
+
+
+.ha {
+    /* display: block; */
+    margin-top: -0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 351px;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 50%;
+}
+
+.par p {
+    font-size: 15px;
+    margin-left: 346px;
+    padding-right: 365px;
+    font-weight: 500;
+}
+
+.par second {
+    font-size: 15px;
+    margin-left: 346px;
+    margin-top: 2px;
+
+}
+.b{
+    padding-left: 343px;
+}
+
+ .box{
+    height: 5rem;
+    margin-left: 100px;
+  }
+
+  .bg-blue {
+    background-color: #CFD4EA !important;
+}
+
+.main{
+    position: relative;
+    display: flex;
+}
+.img3 img{
+    height: 454px;
+    /* position: relative;
+    display: flex; */
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-left: 146px;
+}
+
+.cont h2{
+    font-size: 33px;
+}
