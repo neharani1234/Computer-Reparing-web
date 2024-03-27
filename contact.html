@@ -30,6 +30,75 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="about.css">
 
+
+    <style>
+        .contact .social {
+            display: flex;
+            gap: 3px;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .contact {
+            height: 63px;
+        }
+
+        .contact .social li {
+            border: 1px solid #4c8ad5;
+            color: #4c8ad5;
+            width: 45px;
+            height: 45px;
+            padding: 14px;
+        } 
+         .contact .social li:hover {
+           background-color: #4c8ad5;
+            color:white !important;
+          
+        }
+
+        .contact-info {
+            width: 440px;
+        }
+
+        .footer-logo a img {
+            width: 170px;
+        }
+
+        @media screen and (min-width:320px)and (max-width:425px) {
+            .contact-info {
+                width: 304px;
+            }
+
+            .single-information-top .info-content p {
+                font-size: 7px;
+                /* font-weight: 500; */
+                color: #555;
+            }
+
+        }
+
+        .main-menu ul li a:hover {
+            color: #4c8ad5;
+        }
+
+        .main-menu ul li.active a {
+            color: #4c8ad5;
+        }
+
+        @media screen and (max-width:430px) {
+            .single-information-top .info-content p {
+                font-size: 10px;
+                font-weight: 500;
+                color: #555;
+            }
+
+            .contact-info {
+                width: 300px;
+            }
+        }
+    </style>
+
     <!-- Modernizer JS -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
@@ -39,44 +108,58 @@
     <!-- Main Wrapper Start -->
     <div class="main-wrapper">
         <!-- header-area start -->
-        <div class="header-area">
+        <div class="main-wrapper">
 
-            <!-- header-top start -->
-            <div class="header-top pt--20 pb--20">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-3 col-12">
-
-
-                        </div>
-                        <div class="col-lg-8 col-md-9 col-12">
-                            <!-- Contact-information-top Start -->
-                            <div class="contact-information-top">
-
-                                <!-- Single-information-top Start -->
-                                <div class="single-information-top">
-                                    <div class="info-icon">
-                                        <i class="icofont-headphone-alt-2"></i>
+            <!-- header-area start -->
+            <div class="header-area">
+    
+                <!-- header-top start -->
+                <div class="header-top pt--20 pb--20">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-3 col-12">
+                                <div class="contact-information-top contact-info">
+    
+                                    <!-- Single-information-top Start -->
+                                    <div class="single-information-top">
+                                        <div class="info-icon">
+                                            <i class="icofont-headphone-alt-2"></i>
+                                        </div>
+                                        <div class="info-content">
+                                            <h4>Call Us</h4>
+                                            <p>+91 00000000</p>
+                                        </div>
                                     </div>
-                                    <div class="info-content">
-                                        <h4>Call Us</h4>
-                                        <p>+03476298</p>
+                                    <!-- Single-information-top End -->
+    
+                                    <!-- Single-information-top Start -->
+                                    <div class="single-information-top">
+                                        <div class="info-icon">
+                                            <i class="icofont-email"></i>
+                                        </div>
+                                        <div class="info-content">
+                                            <h4>Email Id</h4>
+                                            <p>info@computerRepair.com</p>
+                                        </div>
                                     </div>
+                                    <!-- Single-information-top End -->
+    
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-9 col-12">
+                                <!-- Contact-information-top Start -->
+                                <div class="contact-information-top  contact">
+    
+                                    <!-- Single-information-top Start -->
+                                    <ul class="social">
+                                        <li><a href="#"><i class="icofont-facebook"></i></a></li>
+                                        <li><a href="#"><i class="icofont-google-plus"></i></a></li>
+                                        <li><a href="#"><i class="icofont-twitter"></i></a></li>
+                                        <li><a href="#"><i class="icofont-pinterest"></i></a></li>
+                                    </ul>
                                 </div>
                                 <!-- Single-information-top End -->
-
-                                <!-- Single-information-top Start -->
-                                <div class="single-information-top">
-                                    <div class="info-icon">
-                                        <i class="icofont-clock-time"></i>
-                                    </div>
-                                    <div class="info-content">
-                                        <h4>Mon - Satday</h4>
-                                        <p>9.00 am - 5.00 pm</p>
-                                    </div>
-                                </div>
-                                <!-- Single-information-top End -->
-
+    
                             </div>
                             <!-- Contact-information-top End -->
                         </div>
@@ -84,7 +167,7 @@
                 </div>
             </div>
             <!-- header-top end -->
-
+    
             <!-- header-bottom-area Start -->
             <div class="header-bottom-area header-sticky">
                 <div class="container">
@@ -93,8 +176,7 @@
                             <div class="header-menu-wrap border-top-1">
                                 <!-- logo start -->
                                 <div class="logo">
-                                    <a href="index.html"><img src="image/logo.jpg" alt="" width="115px"
-                                            height="90px"></a>
+                                    <a href="index.html"><img src="/image/logo.png" alt="" width="115px" height="90px"></a>
                                 </div>
                                 <!-- logo End -->
                                 <!-- main-menu-area Start -->
@@ -112,7 +194,7 @@
                                     </nav>
                                 </div>
                                 <!-- main-menu-area End -->
-
+    
                                 <!-- Make-apoinmant Start -->
                                 <div class="make-apoinmant-button">
                                     <a href="#" class="default-btn border-radius">Contact Us</a>
@@ -129,7 +211,7 @@
                 </div>
             </div>
             <!-- header-bottom-area End -->
-
+    
         </div>
         <!-- header-area end -->
 
