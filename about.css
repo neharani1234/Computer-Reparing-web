@@ -1,10 +1,16 @@
 .breadcrumb-area.section-ptb.A {
     background: url(/image/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 326px;
 }
 
 .breadcrumb-area.section-ptb.B {
     background: url(image/Black\ Modern\ Vlogger\ YouTube\ Banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 280px;
 }
 
@@ -42,12 +48,13 @@
     width: 50%;
 }
 
-.par p {
-    font-size: 15px;
-    margin-left: 346px;
-    padding-right: 365px;
-    font-weight: 500;
-    font-family: sans-serif;
+
+    .par p {
+        font-size: 15px;
+        margin-left: 346px;
+        padding-right: 365px;
+        font-weight: 500;
+        font-family: sans-serif;
 }
 
 .par second {
