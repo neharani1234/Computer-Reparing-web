@@ -106,15 +106,15 @@
 
 
 .cookieCard {
-    width: 100% ;
+    width: 100%;
     height: 325px;
-    /* background: linear-gradient(to right,rgb(197, 190, 223),rgb(175, 152, 255)); */
+    /* background: linear-gradient(to right, rgb(197, 190, 223), rgb(175, 152, 255)); */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 20px;
-    padding: 199px;
+    /* gap: 20px; */
+    /* padding: 199px; */
     position: relative;
     overflow: hidden;
 }

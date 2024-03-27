@@ -1104,7 +1104,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   color: #4c8ad5
 }
 .breadcrumb-list .breadcrumb-item a:hover {
-  color: #fb7832;
+  color: #4c8ad5;
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
@@ -1152,7 +1152,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   padding: 0 8px;
 }
 .pagination-box li a:hover {
-  color: #fb7832;
+  color: #4c8ad5;
 }
 .pagination-box li a i {
   font-size: 22px;
@@ -1287,7 +1287,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   display: none;
 }
 .mobile-menu .mean-bar .mean-nav > ul li a:hover {
-  color: #fb7832;
+  color: #4c8ad5;
   padding-left: 25px;
 }
 .mobile-menu .mean-bar .mean-nav > ul li a.mean-expand {
