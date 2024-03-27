@@ -73,9 +73,10 @@
   }
 
   .bg-blue {
-    background: url(/image/back1.jpg);
+    background: url(/image/Purple\ Gradient\ Consistency\ Success\ Motivational\ Word\ Banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 340px;
     /* opacity: 0.5; */
 }
 
@@ -228,4 +229,45 @@ h1.A3 {
 .section-pt {
     padding-top: 26px !important;
 
+}
+
+.phone{
+    background: url(/services_image/Pink\ Illustrated\ Gadget\ Review\ LinkedIn\ Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    height: 346px;
+}
+.breadcrumb-area h2{
+    font-size: 40px !important;
+}
+/* .breadcrumb-area {
+    background: url(image/lap.png) !important;
+    text-align: center;
+} */
+
+.laptop{
+    background: url(image/1338701.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    height: 346px;
+}
+.sm{
+    background: url(services_image/technology-panoramic-banner-collage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    height: 346px;
+
+}
+.lo p{
+    color: white !important;
+}
+
+button, input[type="submit"] {
+    cursor: pointer;
+    border-radius: 32px !important;
+    height: 45px !important;
+    width: 131px !important;
 }
