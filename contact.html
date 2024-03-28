@@ -52,11 +52,12 @@
             width: 45px;
             height: 45px;
             padding: 14px;
-        } 
-         .contact .social li:hover {
-           background-color: #4c8ad5;
-            color:white !important;
-          
+        }
+
+        .contact .social li:hover {
+            background-color: #4c8ad5;
+            color: white !important;
+
         }
 
         .contact-info {
@@ -98,6 +99,75 @@
             .contact-info {
                 width: 300px;
             }
+
+            .contact-container {
+                display: flex;
+                flex-direction: column;
+                margin-left: 20px;
+                justify-content: space-evenly;
+                gap: 10%;
+            }
+
+            .contact-content h5 {
+                margin-left: 20px;
+                font-size: 14px;
+                line-height: 24px;
+            }
+
+            .contact-content h5 {
+                margin-top: -3px;
+                font-size: 18px;
+                line-height: 28px;
+            }
+
+            .contact-img img {
+                height: 200px;
+                max-width: 120%;
+
+            }
+        
+
+        .contact-content {
+            margin-top: 14px;
+        }
+        }
+
+
+        .contact-container {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 10%;
+        }
+
+        .contact-content {
+            margin-top: 87px;
+        }
+
+        .contact-content h5 {
+            font-size: 18px;
+            line-height: 28px;
+        }
+
+        h1.A3 {
+            text-align: left;
+            font-size: 28px;
+            font-weight: 600;
+            margin-top: 28px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        @media screen and (max-width:1441px) {
+            .contact-container {
+                display: flex;
+                margin: 39px;
+                justify-content: space-evenly;
+                gap: 10%;
+            }
+
+            .contact-content {
+                margin-top: 14px;
+            }
         }
     </style>
 
@@ -114,14 +184,14 @@
 
             <!-- header-area start -->
             <div class="header-area">
-    
+
                 <!-- header-top start -->
                 <div class="header-top pt--20 pb--20">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-4 col-md-3 col-12">
                                 <div class="contact-information-top contact-info">
-    
+
                                     <!-- Single-information-top Start -->
                                     <div class="single-information-top">
                                         <div class="info-icon">
@@ -133,7 +203,7 @@
                                         </div>
                                     </div>
                                     <!-- Single-information-top End -->
-    
+
                                     <!-- Single-information-top Start -->
                                     <div class="single-information-top">
                                         <div class="info-icon">
@@ -145,13 +215,13 @@
                                         </div>
                                     </div>
                                     <!-- Single-information-top End -->
-    
+
                                 </div>
                             </div>
                             <div class="col-lg-8 col-md-9 col-12">
                                 <!-- Contact-information-top Start -->
                                 <div class="contact-information-top  contact">
-    
+
                                     <!-- Single-information-top Start -->
                                     <ul class="social">
                                         <li><a href="#"><i class="icofont-facebook"></i></a></li>
@@ -161,7 +231,7 @@
                                     </ul>
                                 </div>
                                 <!-- Single-information-top End -->
-    
+
                             </div>
                             <!-- Contact-information-top End -->
                         </div>
@@ -169,7 +239,7 @@
                 </div>
             </div>
             <!-- header-top end -->
-    
+
             <!-- header-bottom-area Start -->
             <div class="header-bottom-area header-sticky">
                 <div class="container">
@@ -178,14 +248,15 @@
                             <div class="header-menu-wrap border-top-1">
                                 <!-- logo start -->
                                 <div class="logo">
-                                    <a href="index.html"><img src="/image/logo.png" alt="" width="115px" height="90px"></a>
+                                    <a href="index.html"><img src="/image/logo.png" alt="" width="115px"
+                                            height="90px"></a>
                                 </div>
                                 <!-- logo End -->
                                 <!-- main-menu-area Start -->
                                 <div class="main-menu">
                                     <nav class="main-navigation">
                                         <ul>
-                                            <li ><a href="index.html">HOME</a>
+                                            <li><a href="index.html">HOME</a>
                                             </li>
                                             <li><a href="about.html">ABOUT US</a>
                                             </li>
@@ -196,7 +267,7 @@
                                     </nav>
                                 </div>
                                 <!-- main-menu-area End -->
-    
+
                                 <!-- Make-apoinmant Start -->
                                 <div class="make-apoinmant-button">
                                     <a href="#" class="default-btn border-radius">Contact Us</a>
@@ -213,7 +284,7 @@
                 </div>
             </div>
             <!-- header-bottom-area End -->
-    
+
         </div>
         <!-- header-area end -->
 
@@ -239,155 +310,136 @@
 
 
 
-    
+
         <div class="hed">
             <!-- <h3 class="A3">Contact Us  |  There is nothing better than working with good people.</h3> -->
-            <h1 class="A3">Contact Us  |  There is nothing better than working with good people.</h1>
-            
+            <h1 class="A3">Contact Us | There is nothing better than working with good people.</h1>
+
         </div>
-
-        <div class="cookieCard">
-
-            
-            <h2 class="cookieHeading">We're here</h2>
-            <div class="ABC">
+        <div class="contact-container">
+            <div class="contact-content">
                 <h5>Didn't find what you are looking for? Get in touch with us. We're available from Mon - Sat 10:30 AM
                     - 6:30
-                    PM.</h5>
-                <div class="ABC1">
-                    <h5>NOTE :</h5>
+                    PM.
+                </h5>
+                <div class="cont-desc">
+                    <h5 style="font-weight: bolder;">NOTE :</h5>
                     <h5>1. This is only authorised number (910000000000), we use to communicate with our customer.</h5>
                     <h5>2. We do not ask or request any advance payment for our services or products.</h5>
 
 
-
-
                 </div>
 
-                <div><img class="laptop" src="/image/png-clipart-laptop-computer-cases-housings-gaming-computer-desktop-computers-laptop-game-computer-network-thumbnail-removebg-preview.png" alt=""></div>
-
+            </div>
+            <div class="contact-img">
+                <img src="/image/service-img.png" alt="">
+                <!-- <img class="laptop"
+                        src="/image/png-clipart-laptop-computer-cases-housings-gaming-computer-desktop-computers-laptop-game-computer-network-thumbnail-removebg-preview.png"
+                        alt=""> -->
             </div>
 
-            <!-- <h3  class="AB" >Didn't find what you are looking for? Get in touch with us. We're available from Mon - Sat 10:30 AM - 6:30 PM.</h3> -->
-            <!-- <p class="cookieHeading">We're here</p> -->
-
-            <!-- <button class="acceptButton">Understood</button> -->
-
-
         </div>
+    </div>
+
+
+    </div>
+
+    <!-- End section -->
 
 
 
 
-
-
-
-
-
-
-
-
-
-        <!-- End section -->
-
-
-
-
-        <div class="contact-page-map">
-            <!-- Google Map Start -->
-            <div class="container-fluid p-0">
-                <div id="map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224356.85923192592!2d77.23701088488971!3d28.522404036526275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1710588835593!5m2!1sen!2sin"
-                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+    <div class="contact-page-map">
+        <!-- Google Map Start -->
+        <div class="container-fluid p-0">
+            <div id="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224356.85923192592!2d77.23701088488971!3d28.522404036526275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1710588835593!5m2!1sen!2sin"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <!-- Google Map End -->
         </div>
+        <!-- Google Map End -->
+    </div>
 
-        <div class="contact-us-area box-contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="contact-us-inner">
-                            <div class="row">
-                                <div class="col-lg-8">
-                                    <!-- Contact-form-area Start -->
-                                    <div class="contact-form-area">
-                                        <h3>Send Message</h3>
-                                        <!-- contact-form-warp Start -->
-                                        <div class="contact-form-warp">
-                                            <form id="contact-form" action="https://api.web3forms.com/submit"
-                                                method="POST">
-                                                <div class="row">
-                                                    <input type="hidden" name="access_key"
-                                                        value="b0b6e5a3-9381-4df4-bb5d-4fc9de6d8612">
+    <div class="contact-us-area box-contact">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="contact-us-inner">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <!-- Contact-form-area Start -->
+                                <div class="contact-form-area">
+                                    <h3>Send Message</h3>
+                                    <!-- contact-form-warp Start -->
+                                    <div class="contact-form-warp">
+                                        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                                            <div class="row">
+                                                <input type="hidden" name="access_key"
+                                                    value="b0b6e5a3-9381-4df4-bb5d-4fc9de6d8612">
 
-                                                    <div class="col-lg-6 col-md-6">
-                                                        <div class="input-box">
-                                                            <input type="text" name="name" placeholder="Your Name*">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-6 col-md-6">
-                                                        <div class="input-box">
-                                                            <input type="email" name="email"
-                                                                placeholder="Mail Address*">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-12">
-                                                        <div class="input-box">
-                                                            <textarea name="message"
-                                                                placeholder="Your Message*"></textarea>
-                                                        </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="input-box">
+                                                        <input type="text" name="name" placeholder="Your Name*">
                                                     </div>
                                                 </div>
-                                                <div class="contact-submit-btn">
-                                                    <!-- <button type="submit" class="submit-btn default-btn">Send Email</button> -->
-                                                    <button type="submit">SUBMIT</button>
-                                                    <p class="form-messege"></p>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="input-box">
+                                                        <input type="email" name="email" placeholder="Mail Address*">
+                                                    </div>
                                                 </div>
-                                            </form>
-                                        </div>
-                                        <!-- contact-form-warp End -->
+                                                <div class="col-lg-12">
+                                                    <div class="input-box">
+                                                        <textarea name="message" placeholder="Your Message*"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-submit-btn">
+                                                <!-- <button type="submit" class="submit-btn default-btn">Send Email</button> -->
+                                                <button type="submit">SUBMIT</button>
+                                                <p class="form-messege"></p>
+                                            </div>
+                                        </form>
                                     </div>
-                                    <!-- Contact-form-area End -->
+                                    <!-- contact-form-warp End -->
                                 </div>
-                                <div class="col-lg-3 offset-lg-1 lo">
-                                    <!-- Contact-info-wrap Start -->
-                                    <div class="contact-info-wrap">
-                                        <!-- single-contact-info start -->
-                                        <div class="single-contact-info ">
-                                            <h3>Location</h3>
-                                            <p><i class="icofont-location-arrow"></i>&nbsp;&nbsp;Noida, India</p>
-                                        </div>
-                                        <!-- single-contact-info End -->
-                                        <!-- single-contact-info start -->
-                                        <div class="single-contact-info">
-                                            <h3>Phone</h3>
-                                            <p><a href="#"><i class="icofont-ui-call"></i>&nbsp;&nbsp;+91 0000000000</a>
-                                            </p>
-                                        </div>
-                                        <!-- single-contact-info End -->
-                                        <!-- single-contact-info start -->
-                                        <div class="single-contact-info">
-                                            <h3>E-mail</h3>
-                                            <p><a href="#"><i
-                                                        class="icofont-email"></i>&nbsp;&nbsp;info@acservices.com</a>
-                                            </p>
-                                        </div>
-                                        <!-- single-contact-info End -->
+                                <!-- Contact-form-area End -->
+                            </div>
+                            <div class="col-lg-3 offset-lg-1 lo">
+                                <!-- Contact-info-wrap Start -->
+                                <div class="contact-info-wrap">
+                                    <!-- single-contact-info start -->
+                                    <div class="single-contact-info ">
+                                        <h3>Location</h3>
+                                        <p><i class="icofont-location-arrow"></i>&nbsp;&nbsp;Noida, India</p>
                                     </div>
-                                    <!-- Contact-info-wrap End -->
+                                    <!-- single-contact-info End -->
+                                    <!-- single-contact-info start -->
+                                    <div class="single-contact-info">
+                                        <h3>Phone</h3>
+                                        <p><a href="#"><i class="icofont-ui-call"></i>&nbsp;&nbsp;+91 0000000000</a>
+                                        </p>
+                                    </div>
+                                    <!-- single-contact-info End -->
+                                    <!-- single-contact-info start -->
+                                    <div class="single-contact-info">
+                                        <h3>E-mail</h3>
+                                        <p><a href="#"><i class="icofont-email"></i>&nbsp;&nbsp;info@acservices.com</a>
+                                        </p>
+                                    </div>
+                                    <!-- single-contact-info End -->
                                 </div>
+                                <!-- Contact-info-wrap End -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Footer Area Start -->
+    <!-- Footer Area Start -->
     <footer class="footer-area">
         <div class="footer-top pt--50 pb--100">
             <div class="container">
@@ -438,7 +490,8 @@
                             </div>
                             <ul class="footer-list">
                                 <li><i class="icofont-location-arrow"></i>&nbsp;&nbsp;India</li>
-                                <li><i class="icofont-email"></i><a href="#">&nbsp;&nbsp;info@computerRepair.com</a></li>
+                                <li><i class="icofont-email"></i><a href="#">&nbsp;&nbsp;info@computerRepair.com</a>
+                                </li>
                                 <li><i class="icofont-ui-call"></i><a href="#">&nbsp;&nbsp;+91 0000000000</a></li>
                             </ul>
                         </div>
