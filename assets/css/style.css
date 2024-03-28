@@ -2384,7 +2384,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     11. Something New Css
 ------------------------------*/
 .something-new-bg {
-  background: url(../images/bg/02.jpg);
+  background: url(/image/footer-img.jpg);
+  opacity: 0.8;
   background-size: cover;
 }
 .something-new-bg.overly-bg-black::before {

@@ -87,7 +87,7 @@
                 color: #555;
             }
 
-            breadcrum-heading {
+            .breadcrum-heading {
                 position: absolute;
                 top: 33%;
                 left: 18%;
@@ -124,7 +124,7 @@
                 width: 300px;
             }
 
-            breadcrum-heading {
+            .breadcrum-heading {
                 position: absolute;
                 top: 33%;
                 left: 18%;
@@ -136,6 +136,81 @@
                 background-color: #f6ffee8f;
                 line-height: 2rem;
             }
+        }
+
+        .banner3 {
+            background: url(image/background-banner.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            opacity: 0.8;
+
+        }
+
+        .bg {
+            background-image: linear-gradient(#ffffff, white);
+            /* box-shadow: 0 4px 8px 0 rgb(102, 100, 100), 0 6px 20px 0 rgb(147, 143, 143); */
+          
+        }
+
+        .form-control {
+            background-color: #F8F8F8;
+        }
+
+        .font {
+            color: white;
+            font-size: 35px;
+            line-height: 0.9;
+        }
+
+        .newd a {
+            background-color: #4f8beb;
+            height: 34px;
+            width: 100px;
+            border-radius: 10px;
+            text-align: center;
+            padding: 4px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .newd p {
+            color: white;
+        }
+
+        .btn1 {
+            background: linear-gradient(#e24141d6, #ae925fd6);
+        }
+
+        @media screen and (min-width:768px) and (max-width:2565px) {
+            .row {
+                display: -ms-flexbox;
+                display: flex;
+                justify-content: space-between;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+                margin-right: -15px;
+                margin-left: -15px;
+            }
+
+        }
+
+        @media screen and (max-width:426px) {
+            .font {
+                color: white;
+                font-size: 25px;
+                line-height: 0.9;
+            }
+
+            .p-4 {
+                padding: 0.5rem !important;
+            }
+
+            .pt-5,
+            .py-5 {
+                padding-top: 0rem !important;
+            }
+
         }
     </style>
 
@@ -161,11 +236,11 @@
                                 <!-- Single-information-top Start -->
                                 <div class="single-information-top">
                                     <div class="info-icon">
-                                        <i class="icofont-headphone-alt-2"></i>
+                                        <i class="fa-solid fa-phone"></i>
                                     </div>
                                     <div class="info-content">
                                         <h4>Call Us</h4>
-                                        <p>+91 00000000000</p>
+                                        <p><a href="tel:+91 00000000000">+91 00000000000</a></p>
                                     </div>
                                 </div>
                                 <!-- Single-information-top End -->
@@ -173,11 +248,11 @@
                                 <!-- Single-information-top Start -->
                                 <div class="single-information-top">
                                     <div class="info-icon">
-                                        <i class="icofont-email"></i>
+                                        <i class="fa-solid fa-envelope"></i>
                                     </div>
                                     <div class="info-content">
                                         <h4>Email Id</h4>
-                                        <p>info@computerRepair.com</p>
+                                        <p><a href="mailto:info@computerRepair.com">info@computerRepair.com</a></p>
                                     </div>
                                 </div>
                                 <!-- Single-information-top End -->
@@ -254,7 +329,7 @@
     <!-- header-area end -->
 
     <!-- Hero Slider start -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -283,7 +358,50 @@
         </a>
         <p class="breadcrum-heading">"Revitalize Your Digital World: Precision Solutions for Your Computer and laptop
             woes."</p>
+    </div> -->
+
+    <div class="banner3">
+        <div class="py-5 banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h1><b class="font">Best Computer and Laptop Repair Service</b></h1>
+                        <p style="color: white;">Fast and reliable AC repair service available 24/7. Expert technicians
+                            ensure your comfort
+                            with efficient repairs. Call now.</p>
+                        <!-- <a href="tel:91 7088869369" class="default-btn1 sub border-radius">Call Us</a> -->
+                    </div>
+                    <div class="col-md-8 col-lg-5">
+                        <h3 class="my-3 text-white font-weight-medium text-uppercase">Send Message</h3>
+                        <div class="bg">
+                            <div class="form-row p-4 border-bottom">
+                                <input type="text" class="font-14 form-control" placeholder="Name" />
+                            </div>
+                            <div class="form-row border-bottom ">
+                                <div class="p-4 left w-100">
+                                    <input type="email" class="font-14 form-control" placeholder="Email" />
+                                </div>
+                                <div class="p-4 right w-100">
+                                    <input type="tel" class="font-14 form-control" placeholder="Phone" />
+                                </div>
+                            </div>
+                            <div class="form-row border-bottom p-4">
+                                <textarea cols="1" rows="1" class="font-weight-light font-14 form-control"
+                                    placeholder="Write Down the Message"></textarea>
+                            </div>
+                            <button
+                                class="m-0 border-0 py-4 font-14 font-weight-medium btn1 btn-danger-gradiant btn-block position-relative rounded-0 text-center text-white text-uppercase">
+                                <span>Contact Us</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+
     <!-- Hero Slider end -->
 
 
@@ -395,7 +513,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <!-- counter start -->
                     <div class="counter text-center">
-                        <h3 class="counter-active">112</h3>
+                        <h3 class="counter-active">10</h3>
                         <p>Award Won</p>
                     </div>
                     <!-- counter end -->
@@ -411,8 +529,10 @@
                 <div class="col-lg-4 col-sm-6">
                     <!-- counter start -->
                     <div class="counter text-center">
+
+
                         <h3 class="counter-active">315</h3>
-                        <p>Satisfied Client</p>
+              <p>Satisfied Client</p>
                     </div>
                     <!-- counter end -->
                 </div>
@@ -626,9 +746,9 @@
                             </div>
                             <ul class="footer-list">
                                 <li><i class="icofont-location-arrow"></i>&nbsp;&nbsp;India</li>
-                                <li><i class="icofont-email"></i><a href="#">&nbsp;&nbsp;info@computerRepair.com</a>
+                                <li><i class="icofont-email"></i> <a href="mailto:info@computerRepair.com">info@computerRepair.com</a>
                                 </li>
-                                <li><i class="icofont-ui-call"></i><a href="#">&nbsp;&nbsp;+91 0000000000</a></li>
+                                <li><i class="icofont-ui-call"></i><a href="tel:+91 00000000000">+91 00000000000</a></li>
                             </ul>
                         </div>
                     </div>
@@ -640,7 +760,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="footer-bottom-inner text-center">
-                            <p>Copyright &copy; Aircon 2024 All Right Reserved</p>
+                            <p>Copyright &copy; computerRepair 2024 All Right Reserved</p>
                         </div>
                     </div>
                 </div>
