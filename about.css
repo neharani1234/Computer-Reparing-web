@@ -199,7 +199,7 @@ h1.A3 {
   }
   .serab h2 {
     font-size: 30px !important;
-    font-weight: 600 !important;
+    font-weight: bold !important;
     /* margin-top: -126px !important; */
 }
 .serab h3 {
@@ -253,6 +253,13 @@ h1.A3 {
     background-position: center ;
     height: 346px;
 }
+.display{
+    background: url(services_image/stock-vector-gaming-pc-computer-glowing-in-dark-isometric-illustration-of-modern-computer-case-monitor-2259312365-transformed.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    height: 346px;
+}
 .sm{
     background: url(services_image/technology-panoramic-banner-collage.jpg);
     background-repeat: no-repeat;
@@ -270,4 +277,27 @@ button, input[type="submit"] {
     border-radius: 32px !important;
     height: 45px !important;
     width: 131px !important;
+}
+
+.service-content p {
+    font-size: 16px;
+    margin: 10px 0 10px 0;
+    font-family: sans-serif !important;
+}
+/* keyboardBan{
+    
+        background: url(services_image/keyb.jpeg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 346px;
+    
+} */
+.key{
+    background: url(services_image/DeWatermark.ai_1711626005019.jpg);
+    background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: center; */
+        height: 346px;
+    
 }
