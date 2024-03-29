@@ -30,7 +30,7 @@
 /* Computer services */
 .head h3 {
     color: rgb(9, 9, 10);
-    padding-left: 332px;
+    padding-left: 121px;
     margin: 19px;
     font-size: 28px;
 }
@@ -41,11 +41,11 @@
     /* display: block; */
     margin-top: -0.5em;
     margin-bottom: 0.5em;
-    margin-left: 351px;
+    margin-left: 138px;
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
-    width: 50%;
+    width: 64%;
 }
 
 
@@ -177,7 +177,7 @@ h1.A3 {
 
 
 .contact-us-area{
-    background: url(/image/composition-laptop-compass-engineering.jpg);
+    background: url(/image/footer-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
