@@ -3537,4 +3537,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   }
 }
 
+.single-contact-info p a:hover {
+  color:orange !important;
+  text-decoration: underline;
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
