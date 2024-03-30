@@ -2840,7 +2840,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .your-opinion-wrap h2 {
   font-size: 48px;
   font-weight: 600;
-  color:#5e5656;
+  color:black;
   margin-bottom: 60px;
 }
 @media only screen and (max-width: 767px) {
