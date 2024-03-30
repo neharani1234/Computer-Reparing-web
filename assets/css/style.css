@@ -1183,17 +1183,17 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .mobile-menu .mean-bar .meanmenu-reveal {
-    top: -45px;
+    top: -68px;
   }
 }
 @media only screen and (max-width: 767px) {
   .mobile-menu .mean-bar .meanmenu-reveal {
-    top: -45px;
+    top: -68px;
   }
 }
 @media only screen and (max-width: 479px) {
   .mobile-menu .mean-bar .meanmenu-reveal {
-    top: -45px;
+    top: -68px;
   }
 }
 .mobile-menu .mean-bar .meanmenu-reveal span {
@@ -2396,20 +2396,20 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 .something-new-inner h2 {
-  font-size: 48px;
+  font-size: 29px;
   font-weight: 600;
   color: #ffffff;
   margin-bottom: 25px;
-  line-height: 60px;
+  line-height: 43px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .something-new-inner h2 {
-    font-size: 40px;
+    font-size: 33px;
   }
 }
 @media only screen and (max-width: 767px) {
   .something-new-inner h2 {
-    font-size: 30px;
+    font-size: 21px;
   }
 }
 .something-new-inner p {
