@@ -2514,10 +2514,10 @@ only screen and (max-width: 767px) {
 
   }
 }
-
 .repair-service-inner p {
-  font-size: 16px;
-  margin-top: 25px;
+    font-size: 16px;
+    margin-top: 25px;
+    width: 470px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),

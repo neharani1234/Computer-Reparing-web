@@ -232,6 +232,26 @@
             }
 
         }
+        .whatsApp {
+            position: fixed;
+            top: 85%;
+            z-index: 1;
+        }
+
+
+        .whatsApp i {
+            font-size: 45px;
+            color: white;
+            border: none;
+        }
+
+        #whatsappButton {
+            background-color: rgb(108, 241, 108);
+            height: 60px;
+            width: 60px;
+            border: none;
+            border-radius: 0px 20px 20px 0px;
+        }
     </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -351,7 +371,9 @@
     
         </div>
         <!-- header-area end -->
-
+        <div class="whatsApp" style="border: none">
+            <button id="whatsappButton"><i class="fa-brands fa-whatsapp"></i></button>
+        </div>
         <!-- breadcrumb-area start -->
         <div class="breadcrumb-area section-ptb laptop">
             <div class="container">
@@ -858,7 +880,18 @@
 
     <!-- JS
 ============================================ -->
+<script>
+    document.getElementById("whatsappButton").addEventListener("click", function () {
+        // Replace 'phoneNumber' with the phone number of the contact you want to message
+        var phoneNumber = "1234567890";
 
+        // Construct the WhatsApp URL with the phone number
+        var whatsappURL = "https://wa.me/" + phoneNumber;
+
+        // Open WhatsApp in a new tab
+        window.open(whatsappURL, "_blank");
+    });
+</script>
     <!-- jQuery JS -->
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <!-- Popper JS -->

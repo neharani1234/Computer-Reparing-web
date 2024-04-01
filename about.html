@@ -211,6 +211,26 @@
         .par {
             margin-left: -14%;
         }
+        .whatsApp {
+            position: fixed;
+            top: 85%;
+            z-index: 1;
+        }
+
+
+        .whatsApp i {
+            font-size: 45px;
+            color: white;
+            border: none;
+        }
+
+        #whatsappButton {
+            background-color: rgb(108, 241, 108);
+            height: 60px;
+            width: 60px;
+            border: none;
+            border-radius: 0px 20px 20px 0px;
+        }
     </style>
 
     <!-- Modernizer JS -->
@@ -330,7 +350,9 @@
 
         </div>
         <!-- header-area end -->
-
+        <div class="whatsApp" style="border: none">
+            <button id="whatsappButton"><i class="fa-brands fa-whatsapp"></i></button>
+        </div>
         <!-- breadcrumb-area start -->
         <div class="breadcrumb-area section-ptb A">
 
@@ -368,7 +390,7 @@
                                 Services. Trust us for all your IT Solutions and Repair needs, providing unparalleled
                                 Technology Repair and Maintenance Services..</p>
                             <div class="make-apoinment-button">
-                                <a href="contact.html" class="default-btn border-radius">CONTACT US</a>
+                                <a href="tel:+91 000000000" class="default-btn border-radius">CONTACT US</a>
                             </div>
                         </div>
                     </div>
@@ -451,7 +473,9 @@
                         <div class="repair-service-inner">
                             <!-- <h3>Heating & AC</h3> -->
                             <h2>Who We Are?</h2>
-                            <p>We're a Noida-based startup specializing in computer hardware services, distinguishing ourselves from e-commerce platforms. Our focus lies in providing personalized solutions and on-site assistance to our clientele.</p>
+                            <p>We're a Noida-based startup specializing in computer hardware services, distinguishing
+                                ourselves from e-commerce platforms. Our focus lies in providing personalized solutions
+                                and on-site assistance to our clientele.</p>
                             <!-- <div class="make-apoinment-button">
                                 <a href="#" class="default-btn border-radius">Make Appointment</a>
                             </div> -->
@@ -728,12 +752,12 @@
                                 </div>
                                 <p>At Chill & Spin, our mission is to keep your appliances running smoothly. Contact us
                                     today for expert repairs and unbeatable service.</p>
-                                    <ul class="social">
-                                        <li><a href="#"><i class="icofont-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                                        <!-- <li><a href="#"><i class="icofont-pinterest"></i></a></li> -->
-                                    </ul>
+                                <ul class="social">
+                                    <li><a href="#"><i class="icofont-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <!-- <li><a href="#"><i class="icofont-pinterest"></i></a></li> -->
+                                </ul>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
@@ -799,7 +823,18 @@
 
     <!-- JS
 ============================================ -->
+<script>
+    document.getElementById("whatsappButton").addEventListener("click", function () {
+        // Replace 'phoneNumber' with the phone number of the contact you want to message
+        var phoneNumber = "1234567890";
 
+        // Construct the WhatsApp URL with the phone number
+        var whatsappURL = "https://wa.me/" + phoneNumber;
+
+        // Open WhatsApp in a new tab
+        window.open(whatsappURL, "_blank");
+    });
+</script>
     <!-- jQuery JS -->
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <!-- Popper JS -->
