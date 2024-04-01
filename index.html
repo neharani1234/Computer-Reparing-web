@@ -295,6 +295,26 @@
             height: 5rem;
             margin-left: 100px;
         }
+
+        .whatsApp {
+            position: fixed;
+            top: 50%;
+            z-index: 1;
+        }
+
+
+        .whatsApp i {
+            font-size: 45px;
+            color: white;
+            border: none ;
+        }
+        #whatsappButton{
+            background-color: rgb(108, 241, 108);
+            height: 60px;
+            width: 60px;
+            border: none;
+            border-radius: 0px 20px 20px 0px;
+        }
     </style>
 
     <!-- Modernizer JS -->
@@ -394,7 +414,7 @@
 
                             <!-- Make-apoinmant Start -->
                             <div class="make-apoinmant-button">
-                                <a href="#" class="default-btn border-radius">Contact Us</a>
+                                <a href="tel:=91 0000000000" class="default-btn border-radius">Contact Us</a>
                             </div>
                             <!-- Make-apoinmant End -->
                         </div>
@@ -443,17 +463,21 @@
         <p class="breadcrum-heading">"Revitalize Your Digital World: Precision Solutions for Your Computer and laptop
             woes."</p>
     </div> -->
-
+    <div class="whatsApp" style="border: none">
+        <button id="whatsappButton"><i class="fa-brands fa-whatsapp"></i></button>
+    </div>
     <div class="banner3">
         <div class="py-5 banner">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
                         <h1><b class="font">Best Computer and Laptop Repair Service</b></h1>
-                        <p style="color: black;">Fast and reliable AC repair service available 24/7. Expert technicians
+                        <p style="color: black;">Fast and reliable computer and laptop repair service available 24/7.
+                            Expert technicians
                             ensure your comfort
                             with efficient repairs. Call now.</p>
-                        <a href="tel:91 7088869369" class="default-btn1 sub callus border-radius">Call Us</a>
+                        <a href="tel:+91 0000000000" class="default-btn1 sub callus border-radius">Call Us</a>
+
                     </div>
                     <div class="col-md-8 col-lg-5">
                         <h3 class="my-3 text-white font-weight-medium text-uppercase">Let's Connect with us!</h3>
@@ -511,7 +535,7 @@
                         </div>
                         <div class="service-content text-center">
                             <h3><a href="single-services.html">Laptop Repair & Service</a></h3>
-                            <p>Stay cool this summer. Expert AC repair services at your convenience.</p>
+                            <p>ChillTech: Quick, Reliable Fridge & Laptop Repair Services Guaranteed</p>
                             <a href="laptop.html" class="border-radius">READ MORE</a>
                         </div>
                     </div>
@@ -525,7 +549,7 @@
                         </div>
                         <div class="service-content text-center">
                             <h3><a href="single-services.html">Computer Repair & Service</a></h3>
-                            <p>Fast and reliable fridge services for a chill experience at home.</p>
+                            <p>ChillTech: Quick, Reliable Fridge & Laptop Repair Services Guaranteed.</p>
                             <a href="computer.html" class="border-radius">READ MORE</a>
                         </div>
                     </div>
@@ -539,7 +563,7 @@
                         </div>
                         <div class="service-content text-center">
                             <h3><a href="single-services.html">Smartphone repair and Service</a></h3>
-                            <p>Efficient washing machine services for hassle-free laundry days. Book now.</p>
+                            <p>Efficient smartphone repair and service for seamless connectivity in your digital life.</p>
                             <a href="smartphone.html" class="border-radius">READ MORE</a>
                         </div>
                     </div>
@@ -553,7 +577,7 @@
                         </div>
                         <div class="service-content text-center">
                             <h3><a href="single-services.html">Smartwatch repair and service </a></h3>
-                            <p>Various versions have evolved over the years, Sometimes by accident,</p>
+                            <p>Comprehensive smartwatch repair and service to keep you connected and on time.</p>
                             <a href="smartwatch.html" class="border-radius">READ MORE</a>
                         </div>
                     </div>
@@ -577,7 +601,7 @@
                             repairs, effective maintenance, and proficient installations, guaranteeing optimal
                             performance for your devices year-round.</p>
                         <div class="make-apoinment-button">
-                            <a href="contact.html" class="default-btn border-radius">Make Appointment</a>
+                            <a href="tel:+91 0000000000" class="default-btn border-radius">Call Us</a>
                         </div>
                     </div>
                 </div>
@@ -886,6 +910,19 @@
 
     <!-- JS
 ============================================ -->
+
+    <script>
+        document.getElementById("whatsappButton").addEventListener("click", function () {
+            // Replace 'phoneNumber' with the phone number of the contact you want to message
+            var phoneNumber = "1234567890";
+
+            // Construct the WhatsApp URL with the phone number
+            var whatsappURL = "https://wa.me/" + phoneNumber;
+
+            // Open WhatsApp in a new tab
+            window.open(whatsappURL, "_blank");
+        });
+    </script>
 
     <!-- jQuery JS -->
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
