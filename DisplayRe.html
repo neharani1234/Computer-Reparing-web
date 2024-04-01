@@ -231,6 +231,26 @@
             }
 
         }
+        .whatsApp {
+            position: fixed;
+            top: 85%;
+            z-index: 1;
+        }
+
+
+        .whatsApp i {
+            font-size: 45px;
+            color: white;
+            border: none;
+        }
+
+        #whatsappButton {
+            background-color: rgb(108, 241, 108);
+            height: 60px;
+            width: 60px;
+            border: none;
+            border-radius: 0px 20px 20px 0px;
+        }
     </style>
 
 
@@ -289,7 +309,7 @@
                                     <ul class="social">
                                         <li><a href="#"><i class="icofont-facebook"></i></a></li>
                                         <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="icofont-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
                                         <!-- <li><a href="#"><i class="icofont-pinterest"></i></a></li> -->
                                     </ul>
                                 </div>
@@ -332,7 +352,7 @@
     
                                 <!-- Make-apoinmant Start -->
                                 <div class="make-apoinmant-button">
-                                    <a href="#" class="default-btn border-radius">Contact Us</a>
+                                    <a href="+91 000000000" class="default-btn border-radius">Contact Us</a>
                                 </div>
                                 <!-- Make-apoinmant End -->
                             </div>
@@ -349,7 +369,9 @@
     
         </div>
         <!-- header-area end -->
-
+        <div class="whatsApp" style="border: none">
+            <button id="whatsappButton"><i class="fa-brands fa-whatsapp"></i></button>
+        </div>
         <!-- breadcrumb-area start -->
         <div class="breadcrumb-area section-ptb laptop display ">
             <div class="container">
@@ -733,6 +755,7 @@ class="tab-pane active" id="tab-list-1" -->
         <!-- content-wraper end -->
 
 
+
         <!-- Footer Area Start -->
         <footer class="footer-area">
             <div class="footer-top pt--50 pb--100">
@@ -748,7 +771,7 @@ class="tab-pane active" id="tab-list-1" -->
                                     <ul class="social">
                                         <li><a href="#"><i class="icofont-facebook"></i></a></li>
                                         <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="icofont-twitter"></i></a></li>
+                                          <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
                                         <!-- <li><a href="#"><i class="icofont-pinterest"></i></a></li> -->
                                     </ul>
                             </div>
@@ -815,7 +838,18 @@ class="tab-pane active" id="tab-list-1" -->
 
     <!-- JS
 ============================================ -->
+<script>
+    document.getElementById("whatsappButton").addEventListener("click", function () {
+        // Replace 'phoneNumber' with the phone number of the contact you want to message
+        var phoneNumber = "1234567890";
 
+        // Construct the WhatsApp URL with the phone number
+        var whatsappURL = "https://wa.me/" + phoneNumber;
+
+        // Open WhatsApp in a new tab
+        window.open(whatsappURL, "_blank");
+    });
+</script>
     <!-- jQuery JS -->
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <!-- Popper JS -->

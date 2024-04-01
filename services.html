@@ -115,6 +115,26 @@
                 display: none;
             }
         }
+        .whatsApp {
+            position: fixed;
+            top: 85%;
+            z-index: 1;
+        }
+
+
+        .whatsApp i {
+            font-size: 45px;
+            color: white;
+            border: none;
+        }
+
+        #whatsappButton {
+            background-color: rgb(108, 241, 108);
+            height: 60px;
+            width: 60px;
+            border: none;
+            border-radius: 0px 20px 20px 0px;
+        }
     </style>
 
     <!-- Modernizer JS -->
@@ -173,7 +193,7 @@
                                     <ul class="social">
                                         <li><a href="#"><i class="icofont-facebook"></i></a></li>
                                         <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="icofont-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
                                         <!-- <li><a href="#"><i class="icofont-pinterest"></i></a></li> -->
                                     </ul>
                                 </div>
@@ -217,7 +237,7 @@
 
                                 <!-- Make-apoinmant Start -->
                                 <div class="make-apoinmant-button">
-                                    <a href="#" class="default-btn border-radius">Contact Us</a>
+                                    <a href="+91 000000000" class="default-btn border-radius">Contact Us</a>
                                 </div>
                                 <!-- Make-apoinmant End -->
                             </div>
@@ -234,7 +254,9 @@
 
         </div>
         <!-- header-area end -->
-
+        <div class="whatsApp" style="border: none">
+            <button id="whatsappButton"><i class="fa-brands fa-whatsapp"></i></button>
+        </div>
         <!-- breadcrumb-area start -->
         <div class="breadcrumb-area section-ptb">
             <div class="container">
@@ -265,12 +287,11 @@
                             <h2>Laptop Repair Shop in Noida. Get Home Repairing Service in 95 Min.</h2>
                             <h3>Top Laptop Repair (at Home) Services at your Home. Experience Hassle-Free Doorstep
                                 Pickup & Delivery.</h3>
-                            <p>laptop repair shop specializes in fixing all brands: Dell, HP, Acer, Lenovo, Toshiba,
-                                ASUS, and Sony. Receive emergency repairs, servicing, and more. Visit us for your laptop
+                            <p>Laptop repair shop specializes in fixing all brands. Receive emergency repairs, servicing, and more. Visit us for your laptop
                                 needs. #LaptopRepair #HomeService #BestLaptopRepair #LaptopRepairShopPune
                                 #LaptopRepairShopNearMe.</p>
                             <div class="make-apoinment-button">
-                                <a href="#" class="default-btn border-radius">Make Appointment</a>
+                                <a href="tel:+91 000000000" class="default-btn border-radius">Call Us</a>
                             </div>
                         </div>
                     </div>
@@ -364,8 +385,7 @@
                             <div class="service-content text-center">
                                 <h3><a href="#">Display Repair</a></h3>
 
-                                <p>Specializing in display repair for all major laptop brands including Dell, HP, Acer,
-                                    Lenovo, Toshiba, ASUS, and Sony.</p>
+                                <p>Expert display repair services ensuring optimal performance for screens of all major laptop brands. Get yours fixed today.</p>
                                 <a href="DisplayRe.html">READ MORE</a>
 
                             </div>
@@ -410,7 +430,7 @@
                                     <ul class="social">
                                         <li><a href="#"><i class="icofont-facebook"></i></a></li>
                                         <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="icofont-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
                                         <!-- <li><a href="#"><i class="icofont-pinterest"></i></a></li> -->
                                     </ul>
                             </div>
@@ -431,7 +451,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="footer-info  mt--60">
                                 <div class="footer-title">
-                                    <h3>Inportant Links</h3>
+                                    <h3>Important Links</h3>
                                 </div>
                                 <ul class="footer-list">
                                     <li><a href="#">Privacy Policy</a></li>
@@ -477,7 +497,18 @@
 
     <!-- JS
 ============================================ -->
+<script>
+    document.getElementById("whatsappButton").addEventListener("click", function () {
+        // Replace 'phoneNumber' with the phone number of the contact you want to message
+        var phoneNumber = "1234567890";
 
+        // Construct the WhatsApp URL with the phone number
+        var whatsappURL = "https://wa.me/" + phoneNumber;
+
+        // Open WhatsApp in a new tab
+        window.open(whatsappURL, "_blank");
+    });
+</script>
     <!-- jQuery JS -->
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <!-- Popper JS -->
