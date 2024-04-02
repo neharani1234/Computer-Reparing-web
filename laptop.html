@@ -30,6 +30,194 @@
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <style>
+        .contact .social {
+            display: flex;
+            gap: 3px;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .contact {
+            height: 63px;
+        }
+
+        .contact .social li {
+            border: 1px solid orange;
+            border-radius: 50%;
+            color: orange;
+            width: 40px;
+            font-size: 23px;
+            height: 40px;
+            padding: 9px;
+        }
+
+        .contact .social li:hover {
+            background-color:orange;
+            color: white !important;
+
+        }
+
+        .contact-info {
+            width: 440px;
+        }
+
+        .footer-logo a img {
+            width: 170px;
+        }
+
+        .breadcrum-heading {
+            position: absolute;
+            top: 47%;
+            left: 26%;
+            color: #110f0f;
+            font-size: 2rem;
+            width: 53%;
+            font-weight: bold;
+            background-color: #f6ffee8f;
+            line-height: 3rem;
+        }
+
+        @media screen and (min-width:320px)and (max-width:425px) {
+            .contact-info {
+                width: 304px;
+            }
+
+            .single-information-top .info-content p {
+                font-size: 7px;
+                color: #555;
+            }
+
+            .breadcrum-heading {
+                position: absolute;
+                top: 33%;
+                left: 18%;
+                color: #110f0f;
+                font-size: 13px;
+                padding: 20px;
+                width: 58%;
+                font-weight: bold;
+                background-color: #f6ffee8f;
+                line-height: 2rem;
+            }
+
+
+        }
+
+
+
+        .main-menu ul li a:hover {
+            color: orange;
+        }
+
+        .main-menu ul li.active a {
+            color: orange;
+        }
+
+        @media screen and (max-width:430px) {
+            .single-information-top .info-content p {
+                font-size: 10px;
+                font-weight: 500;
+                color: #555;
+            }
+
+            .contact-info {
+                width: 300px;
+            }
+
+            .breadcrum-heading {
+                position: absolute;
+                top: 33%;
+                left: 18%;
+                color: #110f0f;
+                font-size: 13px;
+                padding: 20px;
+                width: 58%;
+                font-weight: bold;
+                background-color: #f6ffee8f;
+                line-height: 2rem;
+            }
+        }
+
+        .banner3 {
+            background: url(image/background-banner.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            opacity: 0.8;
+
+        }
+
+        .bg {
+            background-image: linear-gradient(#ffffff, white);
+            /* box-shadow: 0 4px 8px 0 rgb(102, 100, 100), 0 6px 20px 0 rgb(147, 143, 143); */
+
+        }
+
+        .form-control {
+            background-color: #F8F8F8;
+        }
+
+        .font {
+            color: white;
+            font-size: 35px;
+            line-height: 0.9;
+        }
+
+        .newd a {
+            background: linear-gradient(45deg, #d63f3f, #ffe649);
+            height: 34px;
+            width: 100px;
+            border-radius: 10px;
+            text-align: center;
+            padding: 4px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .newd p {
+            color: white;
+        }
+
+        .btn1 {
+            background: linear-gradient(45deg, #d63f3f, #ffe649);
+        }
+
+        @media screen and (min-width:768px) and (max-width:2565px) {
+            .row {
+                display: -ms-flexbox;
+                display: flex;
+                justify-content: space-between;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+                margin-right: -15px;
+                margin-left: -15px;
+            }
+
+        }
+
+        @media screen and (max-width:426px) {
+            .font {
+                color: white;
+                font-size: 25px;
+                line-height: 0.9;
+            }
+
+            .p-4 {
+                padding: 0.5rem !important;
+            }
+
+            .pt-5,
+            .py-5 {
+                padding-top: 0rem !important;
+            }
+
+        }
+    </style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Modernizer JS -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
@@ -39,44 +227,58 @@
     <!-- Main Wrapper Start -->
     <div class="main-wrapper">
         <!-- header-area start -->
-        <div class="header-area">
+        <div class="main-wrapper">
 
-            <!-- header-top start -->
-            <div class="header-top pt--20 pb--20">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-3 col-12">
-
-
-                        </div>
-                        <div class="col-lg-8 col-md-9 col-12">
-                            <!-- Contact-information-top Start -->
-                            <div class="contact-information-top">
-
-                                <!-- Single-information-top Start -->
-                                <div class="single-information-top">
-                                    <div class="info-icon">
-                                        <i class="icofont-headphone-alt-2"></i>
+            <!-- header-area start -->
+            <div class="header-area">
+    
+                <!-- header-top start -->
+                <div class="header-top pt--20 pb--20">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-3 col-12">
+                                <div class="contact-information-top contact-info">
+    
+                                    <!-- Single-information-top Start -->
+                                    <div class="single-information-top">
+                                        <div class="info-icon">
+                                            <i class="fa-solid fa-phone"></i>
+                                        </div>
+                                        <div class="info-content">
+                                            <!-- <h4>Call Us</h4> -->
+                                            <p><a href="tel:+91 00000000000">+91 00000000000</a></p>
+                                        </div>
                                     </div>
-                                    <div class="info-content">
-                                        <h4>Call Us</h4>
-                                        <p>+03476298</p>
+                                    <!-- Single-information-top End -->
+    
+                                    <!-- Single-information-top Start -->
+                                    <div class="single-information-top">
+                                        <div class="info-icon">
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </div>
+                                        <div class="info-content">
+                                            <!-- <h4>Email Id</h4> -->
+                                            <p><a href="mailto:info@computerRepair.com">info@computerRepair.com</a></p>
+                                        </div>
                                     </div>
+                                    <!-- Single-information-top End -->
+    
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-9 col-12">
+                                <!-- Contact-information-top Start -->
+                                <div class="contact-information-top  contact">
+    
+                                    <!-- Single-information-top Start -->
+                                    <ul class="social">
+                                        <li><a href="#"><i class="icofont-facebook"></i></a></li>
+                                        <li><a href="#"><i class="icofont-google-plus"></i></a></li>
+                                        <li><a href="#"><i class="icofont-twitter"></i></a></li>
+                                        <li><a href="#"><i class="icofont-pinterest"></i></a></li>
+                                    </ul>
                                 </div>
                                 <!-- Single-information-top End -->
-
-                                <!-- Single-information-top Start -->
-                                <div class="single-information-top">
-                                    <div class="info-icon">
-                                        <i class="icofont-clock-time"></i>
-                                    </div>
-                                    <div class="info-content">
-                                        <h4>Mon - Satday</h4>
-                                        <p>9.00 am - 5.00 pm</p>
-                                    </div>
-                                </div>
-                                <!-- Single-information-top End -->
-
+    
                             </div>
                             <!-- Contact-information-top End -->
                         </div>
@@ -84,7 +286,7 @@
                 </div>
             </div>
             <!-- header-top end -->
-
+    
             <!-- header-bottom-area Start -->
             <div class="header-bottom-area header-sticky">
                 <div class="container">
@@ -93,8 +295,7 @@
                             <div class="header-menu-wrap border-top-1">
                                 <!-- logo start -->
                                 <div class="logo">
-                                    <a href="index.html"><img src="image/logo.jpg" alt="" width="115px"
-                                            height="90px"></a>
+                                    <a href="index.html"><img src="/image/logo-removebg-preview.png" alt="" width="115px" height="90px"></a>
                                 </div>
                                 <!-- logo End -->
                                 <!-- main-menu-area Start -->
@@ -112,7 +313,7 @@
                                     </nav>
                                 </div>
                                 <!-- main-menu-area End -->
-
+    
                                 <!-- Make-apoinmant Start -->
                                 <div class="make-apoinmant-button">
                                     <a href="#" class="default-btn border-radius">Contact Us</a>
@@ -128,8 +329,8 @@
                     </div>
                 </div>
             </div>
-            <!-- header-bottom-area End -->
-
+    
+    
         </div>
         <!-- header-area end -->
 
@@ -569,7 +770,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="footer-info mt--60">
                                 <div class="logo footer-logo">
-                                    <a href="#"><img class="logo" src="/image/logo.png" alt="logo-Image"></a>
+                                    <a href="#"><img class="logo" src="/image/logo.jpegs" alt="logo-Image"></a>
                                 </div>
                                 <p>At Chill & Spin, our mission is to keep your appliances running smoothly. Contact us
                                     today for expert repairs and unbeatable service.</p>

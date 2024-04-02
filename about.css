@@ -30,7 +30,7 @@
 /* Computer services */
 .head h3 {
     color: rgb(9, 9, 10);
-    padding-left: 332px;
+    padding-left: 121px;
     margin: 19px;
     font-size: 28px;
 }
@@ -41,11 +41,11 @@
     /* display: block; */
     margin-top: -0.5em;
     margin-bottom: 0.5em;
-    margin-left: 351px;
+    margin-left: 138px;
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
-    width: 50%;
+    width: 64%;
 }
 
 
@@ -63,8 +63,8 @@
     margin-top: 2px;
 
 }
-.b{
-    padding-left: 343px;
+.b {
+    padding-left: 45px;
 }
 
  .box{
@@ -177,7 +177,7 @@ h1.A3 {
 
 
 .contact-us-area{
-    background: url(/image/composition-laptop-compass-engineering.jpg);
+    background: url(/image/footer-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -301,9 +301,12 @@ button, input[type="submit"] {
         height: 346px;
     
 }
+<<<<<<< HEAD
 
 .contactB{
     background: url(image/BAW.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+=======
+>>>>>>> da50ec49e84970abe49f4c9308e5bacc92e6f15c
