@@ -28,6 +28,8 @@
 
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
 
     <style>
         .contact .social {
@@ -493,24 +495,24 @@
                     </div>
                     <div class="col-md-8 col-lg-5">
                         <h3 class="my-3 text-white font-weight-medium text-uppercase">Let's Connect with us!</h3>
-                        <form action="">
+                        <form onsubmit="emailSend(); reset(); return false;">
                             <div class="bg">
                                 <div class="form-row p-4 border-bottom">
-                                    <input type="text" class="font-14 form-control" placeholder="Name" required />
+                                    <input id="name" type="text" class="font-14 form-control" placeholder="Name" required />
                                 </div>
                                 <div class="form-row border-bottom ">
                                     <div class="p-4 left w-100">
-                                        <input type="email" class="font-14 form-control" placeholder="Email" required />
+                                        <input id="email" type="email" class="font-14 form-control" placeholder="Email" required />
                                     </div>
                                     <div class="p-4 right w-100">
-                                        <input type="tel" class="font-14 form-control" placeholder="Phone" required />
+                                        <input id="phone" type="tel" class="font-14 form-control" placeholder="Phone" required />
                                     </div>
                                 </div>
                                 <div class="form-row border-bottom p-4">
-                                    <textarea style="height: 20%px ;" class="font-weight-light font-14 form-control"
+                                    <textarea id="message" style="height: 20%px ;" class="font-weight-light font-14 form-control"
                                         placeholder="Write Down the Message"></textarea>
                                 </div>
-                                <button class="submit-btn">
+                                <button id="sub" class="submit-btn">
                                     Contact Us
                                 </button>
                             </div>
@@ -925,17 +927,45 @@
 ============================================ -->
 
     <script>
-        document.getElementById("whatsappButton").addEventListener("click", function () {
-            // Replace 'phoneNumber' with the phone number of the contact you want to message
-            var phoneNumber = "1234567890";
+     
+     function emailSend() {
 
-            // Construct the WhatsApp URL with the phone number
-            var whatsappURL = "https://wa.me/" + phoneNumber;
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var phone = document.getElementById('phone').value;
+        var message = document.getElementById('message').value;
+        // var phone = document.getElementById('phone').value;
+        // var message = document.getElementById('message').value;
 
-            // Open WhatsApp in a new tab
-            window.open(whatsappURL, "_blank");
-        });
-    </script>
+        var messageBody = "Name: &nbsp;" + name +
+            "<br/> Email: &nbsp;" + email +
+            "<br/> phone: &nbsp;" + phone +
+            "<br/> message: &nbsp;" + message;
+
+
+        Email.send({
+            Host: "smtp.elasticemail.com",
+            Username: "neha2rani1988@gmail.com",
+            Password: "77C5007077DA6D1EB9C4D02035B609E67354",
+            To: "neha2rani1988@gmail.com",
+            From: "neha2rani1988@gmail.com",
+            Subject: "This is the subject",
+            Body: messageBody
+        }).then(
+            message => {
+                if (message == 'OK') {
+                    alert("Submitted Sucessfully!");
+                }
+                else {
+                    alert("Error");
+                }
+            }
+        );
+    }
+
+       
+</script>
+    
 
     <!-- jQuery JS -->
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
