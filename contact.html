@@ -86,10 +86,12 @@
             }
 
         }
+
         @media screen and (max-width:770px) {
             .make-apoinmant-button .default-btn {
                 display: none;
             }
+
             .footer-logo a img {
                 width: 100px;
             }
@@ -113,7 +115,7 @@
             .contact-info {
                 width: 300px;
             }
-            
+
             .make-apoinmant-button .default-btn {
                 display: none;
             }
@@ -197,6 +199,7 @@
             height: 40px;
             padding: 9px;
         }
+
         .whatsApp {
             position: fixed;
             top: 85%;
@@ -215,7 +218,7 @@
             height: 60px !important;
             width: 60px !important;
             border: none;
-            border-radius: 0px 20px 20px 0px !important ;
+            border-radius: 0px 20px 20px 0px !important;
         }
     </style>
 
@@ -431,17 +434,20 @@
 
                                                 <div class="col-lg-6 col-md-6">
                                                     <div class="input-box">
-                                                        <input type="text" id="name" name="name" placeholder="Your Name*" required>
+                                                        <input type="text" id="name" name="name"
+                                                            placeholder="Your Name*" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 col-md-6">
                                                     <div class="input-box">
-                                                        <input type="email" id="email" name="email" placeholder="Mail Address*" required>
+                                                        <input type="email" id="email" name="email"
+                                                            placeholder="Mail Address*" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-12">
                                                     <div class="input-box">
-                                                        <textarea name="message" id="message" placeholder="Your Message*" required></textarea>
+                                                        <textarea name="message" id="message"
+                                                            placeholder="Your Message*" required></textarea>
                                                     </div>
                                                 </div>
                                                 <button id="sub" class="submit-btn">
@@ -449,13 +455,13 @@
                                                 </button>
                                                 <!-- <div class="contact-submit-btn">
                                                     <!-- <button type="submit" class="submit-btn default-btn">Send Email</button> -->
-                                                    <!-- <button >SUBMIT</button>
+                                                <!-- <button >SUBMIT</button>
                                                     <p class="form-messege"></p>
                                                 </div>  -->
                                             </div>
                                             <!-- <div class="contact-submit-btn">
                                                 <button type="submit" class="submit-btn default-btn">Send Email</button> -->
-                                                <!-- <button >SUBMIT</button>
+                                            <!-- <button >SUBMIT</button>
                                                 <p class="form-messege"></p>
                                             </div> -->
                                         </form>
@@ -476,14 +482,16 @@
                                     <!-- single-contact-info start -->
                                     <div class="single-contact-info">
                                         <h3>Phone</h3>
-                                        <p><a href="tel:+91 0000000000"><i class="icofont-ui-call"></i>&nbsp;&nbsp;+91 0000000000</a>
+                                        <p><a href="tel:+91 0000000000"><i class="icofont-ui-call"></i>&nbsp;&nbsp;+91
+                                                0000000000</a>
                                         </p>
                                     </div>
                                     <!-- single-contact-info End -->
                                     <!-- single-contact-info start -->
                                     <div class="single-contact-info">
                                         <h3>E-mail</h3>
-                                        <p><a href="mailto:info@computerRepair.com"><i class="icofont-email"></i>&nbsp;&nbsp;info@computerRepair.com</a>
+                                        <p><a href="mailto:info@computerRepair.com"><i
+                                                    class="icofont-email"></i>&nbsp;&nbsp;info@computerRepair.com</a>
                                         </p>
                                     </div>
                                     <!-- single-contact-info End -->
@@ -580,42 +588,42 @@
     <!-- JS
 ============================================ -->
 
-<script>
-     function emailSend() {
+    <script>
+        function emailSend() {
 
-var name = document.getElementById('name').value;
-var email = document.getElementById('email').value;
-var message = document.getElementById('message').value;
-// var address=document.getElementById('address').value;
-// var phone = document.getElementById('phone').value;
-// var message = document.getElementById('message').value;
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+            // var address=document.getElementById('address').value;
+            // var phone = document.getElementById('phone').value;
+            // var message = document.getElementById('message').value;
 
-var messageBody = "Name: &nbsp;" + name +
-    "<br/> Email: &nbsp;" + email +
-    "<br/> message: &nbsp;" + message;
+            var messageBody = "Name: &nbsp;" + name +
+                "<br/> Email: &nbsp;" + email +
+                "<br/> message: &nbsp;" + message;
 
 
-Email.send({
-    Host: "smtp.elasticemail.com",
-    Username: "neha2rani1988@gmail.com",
-    Password: "77C5007077DA6D1EB9C4D02035B609E67354",
-    To: "neha2rani1988@gmail.com",
-    From: "neha2rani1988@gmail.com",
-    Subject: "This is the subject",
-    Body: messageBody
-}).then(
-    message => {
-        if (message == 'OK') {
-            alert("Submitted Sucessfully!  ");
+            Email.send({
+                Host: "smtp.elasticemail.com",
+                Username: "email",
+                Password: "password",
+                To: "email",
+                From: "email",
+                Subject: "This is the subject",
+                Body: messageBody
+            }).then(
+                message => {
+                    if (message == 'OK') {
+                        alert("Submitted Sucessfully!  ");
+                    }
+                    else {
+                        alert("Error");
+                    }
+                }
+            );
         }
-        else {
-            alert("Error");
-        }
-    }
-);
-}
 
-</script>
+    </script>
 
 
 
