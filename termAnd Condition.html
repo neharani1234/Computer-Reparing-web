@@ -48,9 +48,9 @@
             border-radius: 50%;
             color: orange;
             width: 40px;
-            font-size: 23px;
+            font-size: 18px;
             height: 40px;
-            padding: 9px;
+            padding: 8px 2px 3px 10px;
         }
 
         .contact .social li:hover {
@@ -294,7 +294,7 @@
 <body>
 
     <!-- Main Wrapper Start -->
-    <div class="main-wrapper">
+    <div class="main-wrapper" style="overflow: hidden;">
         <!-- header-area start -->
         <div class="main-wrapper">
 
@@ -699,8 +699,7 @@
     <script>
         document.getElementById("whatsappButton").addEventListener("click", function () {
             // Replace 'phoneNumber' with the phone number of the contact you want to message
-            var phoneNumber = "1234567890";
-
+            var phoneNumber = "91 0000000000";
             // Construct the WhatsApp URL with the phone number
             var whatsappURL = "https://wa.me/" + phoneNumber;
 
